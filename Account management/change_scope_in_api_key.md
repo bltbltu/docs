@@ -32,7 +32,7 @@ Changes scope for key with given id
 | › default       | boolean  | Informs whether this api key is default (default one is used for api console or trading view) |
 | › enabled       | boolean  | Informs whether api key is enabled and can be used for authentication |
 | › id            | integer  | key identifier                                               |
-| › max_scope     | string   | Describes maximal access for tokens generated with given key, possible values: `trade:[read, read_write, none]`, `wallet:[read, read_write, none]`, `account:[read, read_write, none]`, `block_trade:[read, read_write, none]`. If scope is not provided, it value is set as none. |
+| › max_scope     | string   | Describes maximal access for tokens generated with given key, possible values: `trade:[read, read_write, none]` `wallet:[read, read_write, none]` `account:[read, read_write, none]` `block_trade:[read, read_write, none]`. If scope is not provided, it value is set as none. |
 | › name          | string   | Api key name that can be displayed in transaction log        |
 | › timestamp     | integer  | The timestamp (milliseconds since the Unix epoch)            |
 | › ip_whitelist     | array of *string*   |    IP address                                |
