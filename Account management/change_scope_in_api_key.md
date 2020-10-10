@@ -13,7 +13,7 @@ Changes scope for key with given id
 | Parameter | Required | Type    | Enum | Description |
 | :-------- | :------- | :------ | ---- | ----------- |
 | id        | true     | integer |      | Id of key   |
-| max_scope | true     | string  |      |             |
+| max_scope | true     | string  |      |   Describes maximal access for tokens generated with given key          |
 
 
 
